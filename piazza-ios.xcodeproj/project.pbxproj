@@ -35,15 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EEE212D92BD7EA4400E6D9B5 /* Piazza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piazza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE212D92BD7EA4400E6D9B5 /* piazza-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "piazza-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE212DC2BD7EA4400E6D9B5 /* PiazzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaApp.swift; sourceTree = "<group>"; };
 		EEE212DE2BD7EA4400E6D9B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEE212E02BD7EA4500E6D9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE212E22BD7EA4500E6D9B5 /* Piazza.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Piazza.entitlements; sourceTree = "<group>"; };
 		EEE212E42BD7EA4500E6D9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EEE212EA2BD7EA4600E6D9B5 /* PiazzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiazzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE212EA2BD7EA4600E6D9B5 /* piazza-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "piazza-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE212EE2BD7EA4600E6D9B5 /* PiazzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaTests.swift; sourceTree = "<group>"; };
-		EEE212F42BD7EA4600E6D9B5 /* PiazzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiazzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE212F42BD7EA4600E6D9B5 /* piazza-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "piazza-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE212F82BD7EA4600E6D9B5 /* PiazzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITests.swift; sourceTree = "<group>"; };
 		EEE212FA2BD7EA4600E6D9B5 /* PiazzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		EEE212D02BD7EA4400E6D9B5 = {
 			isa = PBXGroup;
 			children = (
-				EEE212DB2BD7EA4400E6D9B5 /* Piazza */,
+				EEE212DB2BD7EA4400E6D9B5 /* piazza-ios */,
 				EEE212ED2BD7EA4600E6D9B5 /* PiazzaTests */,
 				EEE212F72BD7EA4600E6D9B5 /* PiazzaUITests */,
 				EEE212DA2BD7EA4400E6D9B5 /* Products */,
@@ -87,14 +87,14 @@
 		EEE212DA2BD7EA4400E6D9B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEE212D92BD7EA4400E6D9B5 /* Piazza.app */,
-				EEE212EA2BD7EA4600E6D9B5 /* PiazzaTests.xctest */,
-				EEE212F42BD7EA4600E6D9B5 /* PiazzaUITests.xctest */,
+				EEE212D92BD7EA4400E6D9B5 /* piazza-ios.app */,
+				EEE212EA2BD7EA4600E6D9B5 /* piazza-iosTests.xctest */,
+				EEE212F42BD7EA4600E6D9B5 /* piazza-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EEE212DB2BD7EA4400E6D9B5 /* Piazza */ = {
+		EEE212DB2BD7EA4400E6D9B5 /* piazza-ios */ = {
 			isa = PBXGroup;
 			children = (
 				EEE212DC2BD7EA4400E6D9B5 /* PiazzaApp.swift */,
@@ -103,7 +103,7 @@
 				EEE212E22BD7EA4500E6D9B5 /* Piazza.entitlements */,
 				EEE212E32BD7EA4500E6D9B5 /* Preview Content */,
 			);
-			path = Piazza;
+			path = "piazza-ios";
 			sourceTree = "<group>";
 		};
 		EEE212E32BD7EA4500E6D9B5 /* Preview Content */ = {
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EEE212D82BD7EA4400E6D9B5 /* Piazza */ = {
+		EEE212D82BD7EA4400E6D9B5 /* piazza-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEE212FE2BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "Piazza" */;
+			buildConfigurationList = EEE212FE2BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "piazza-ios" */;
 			buildPhases = (
 				EEE212D52BD7EA4400E6D9B5 /* Sources */,
 				EEE212D62BD7EA4400E6D9B5 /* Frameworks */,
@@ -146,17 +146,17 @@
 			);
 			dependencies = (
 			);
-			name = Piazza;
+			name = "piazza-ios";
 			packageProductDependencies = (
 				EEE213082BD7EAB500E6D9B5 /* Turbo */,
 			);
 			productName = Piazza;
-			productReference = EEE212D92BD7EA4400E6D9B5 /* Piazza.app */;
+			productReference = EEE212D92BD7EA4400E6D9B5 /* piazza-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EEE212E92BD7EA4600E6D9B5 /* PiazzaTests */ = {
+		EEE212E92BD7EA4600E6D9B5 /* piazza-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEE213012BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "PiazzaTests" */;
+			buildConfigurationList = EEE213012BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "piazza-iosTests" */;
 			buildPhases = (
 				EEE212E62BD7EA4600E6D9B5 /* Sources */,
 				EEE212E72BD7EA4600E6D9B5 /* Frameworks */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				EEE212EC2BD7EA4600E6D9B5 /* PBXTargetDependency */,
 			);
-			name = PiazzaTests;
+			name = "piazza-iosTests";
 			productName = PiazzaTests;
-			productReference = EEE212EA2BD7EA4600E6D9B5 /* PiazzaTests.xctest */;
+			productReference = EEE212EA2BD7EA4600E6D9B5 /* piazza-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EEE212F32BD7EA4600E6D9B5 /* PiazzaUITests */ = {
+		EEE212F32BD7EA4600E6D9B5 /* piazza-iosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEE213042BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "PiazzaUITests" */;
+			buildConfigurationList = EEE213042BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "piazza-iosUITests" */;
 			buildPhases = (
 				EEE212F02BD7EA4600E6D9B5 /* Sources */,
 				EEE212F12BD7EA4600E6D9B5 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				EEE212F62BD7EA4600E6D9B5 /* PBXTargetDependency */,
 			);
-			name = PiazzaUITests;
+			name = "piazza-iosUITests";
 			productName = PiazzaUITests;
-			productReference = EEE212F42BD7EA4600E6D9B5 /* PiazzaUITests.xctest */;
+			productReference = EEE212F42BD7EA4600E6D9B5 /* piazza-iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EEE212D42BD7EA4400E6D9B5 /* Build configuration list for PBXProject "Piazza" */;
+			buildConfigurationList = EEE212D42BD7EA4400E6D9B5 /* Build configuration list for PBXProject "piazza-ios" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEE212D82BD7EA4400E6D9B5 /* Piazza */,
-				EEE212E92BD7EA4600E6D9B5 /* PiazzaTests */,
-				EEE212F32BD7EA4600E6D9B5 /* PiazzaUITests */,
+				EEE212D82BD7EA4400E6D9B5 /* piazza-ios */,
+				EEE212E92BD7EA4600E6D9B5 /* piazza-iosTests */,
+				EEE212F32BD7EA4600E6D9B5 /* piazza-iosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,12 +295,12 @@
 /* Begin PBXTargetDependency section */
 		EEE212EC2BD7EA4600E6D9B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEE212D82BD7EA4400E6D9B5 /* Piazza */;
+			target = EEE212D82BD7EA4400E6D9B5 /* piazza-ios */;
 			targetProxy = EEE212EB2BD7EA4600E6D9B5 /* PBXContainerItemProxy */;
 		};
 		EEE212F62BD7EA4600E6D9B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EEE212D82BD7EA4400E6D9B5 /* Piazza */;
+			target = EEE212D82BD7EA4400E6D9B5 /* piazza-ios */;
 			targetProxy = EEE212F52BD7EA4600E6D9B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -510,7 +510,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piazza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Piazza";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piazza-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/piazza-ios";
 			};
 			name = Debug;
 		};
@@ -532,7 +532,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piazza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Piazza";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piazza-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/piazza-ios";
 			};
 			name = Release;
 		};
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EEE212D42BD7EA4400E6D9B5 /* Build configuration list for PBXProject "Piazza" */ = {
+		EEE212D42BD7EA4400E6D9B5 /* Build configuration list for PBXProject "piazza-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEE212FC2BD7EA4600E6D9B5 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEE212FE2BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "Piazza" */ = {
+		EEE212FE2BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "piazza-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEE212FF2BD7EA4600E6D9B5 /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEE213012BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "PiazzaTests" */ = {
+		EEE213012BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "piazza-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEE213022BD7EA4600E6D9B5 /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEE213042BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "PiazzaUITests" */ = {
+		EEE213042BD7EA4600E6D9B5 /* Build configuration list for PBXNativeTarget "piazza-iosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEE213052BD7EA4600E6D9B5 /* Debug */,
